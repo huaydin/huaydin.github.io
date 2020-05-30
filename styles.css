@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(255, 249, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 7px solid aliceblue;
+    padding: 23px;
+}
+h1{
+    background-color: rgba(255, 139, 126, 0.7);
+}
+p{
+    text-align:justify;
+    font-size: 15px;
+}
+#pHead{
+    font-weight: bold;
+    font-size: 17px; 
+}
+#tracker{
+    width:100%; 
+    font-weight: lighter;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-collapse: collapse;
+}
+#calc{
+    width:100%; 
+    font-weight: lighter;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+}
