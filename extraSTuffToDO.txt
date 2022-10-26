@@ -1,0 +1,7 @@
+Make the 4 buttons truly centered. No left margin right margin different bs.
+<div class="top-links">
+  <div><button class="link-button"><a href="https://canvas.case.edu/" target="_blank" title="I miss blackboard">Math & Physics</a></button></div>
+  <div><button class="link-button"><a href="./neatsites.html" target="_blank" title="bookmarks">Worldly Interests</a></button></div>
+  <div><button class="link-button"><a href="./Logs/chinese.html" target="_blank">Projects & Programs</a></button></div>
+  <div><button class="link-button"><a href="./music.html" target="_blank">Extra Readings</a></button></div>
+</div>

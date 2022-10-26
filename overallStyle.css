@@ -1,0 +1,47 @@
+:root {
+  --main-bg-color: #ffffff;
+  --text-color   : #3B302C;
+  --button-color : #844344;
+  --button-hover : #a87b7c;
+  --accent1      : #D1C698;
+  --accent2      : #868B6E;
+  /* background-position: center center; */
+}
+
+body {
+  background-color: black;
+  background-image: url("./imgs/computer.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  color: var(--text-color)
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+/* This fixes the size of the body */
+#frame{
+  position:fixed;
+  width:100vw;
+  height:100vh;
+  /* border-style: solid; */
+}
+
+.enter {
+  z-index: 1;
+  padding: 0;
+  color: white;
+  position: sticky;
+  top: 60vh;
+  margin-left: 44.5vw;
+  border: solid;
+  max-width: 100px;
+}
+
+/* .desk-img {
+  max-width = 30vw;
+} */

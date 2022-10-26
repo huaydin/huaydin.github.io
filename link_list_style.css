@@ -1,0 +1,32 @@
+:root {
+  --main-bg-color: #000000;
+  --text-color   : #ffffff;
+  --button-color : #844344;
+  --button-hover : #a87b7c;
+  --accent1      : #D1C698;
+  --accent2      : #868B6E;
+  /* background-position: center center; */
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--text-color)
+  overflow: hidden;
+}
+
+h1 {
+  color: var(--accent1);
+  font-size: big;
+}
+#Desc {
+  color: var(--text-color);
+}
+
+#list {
+  color: var(--text-color);
+}
+
+#entry {
+  color: var(--text-color);
+  margin-left: 16px;
+}
