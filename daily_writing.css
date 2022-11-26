@@ -1,0 +1,41 @@
+:root {
+  --main-bg-color: #000000;
+  --text-color   : #ffffff;
+  --button-color : #844344;
+  --button-hover : #a87b7c;
+  --accent1      : #D1C698;
+  --accent2      : #868B6E;
+  /* background-position: center center; */
+}
+
+body {
+
+  /* background-image: url("./imgs/image_82669.png"); */
+  background-color: black;
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+  font-family: Courier;
+  font-size: 12px;
+  /* background-position: center center; */
+  color: var(--text-color)
+  overflow: hidden;
+}
+
+h1 {
+  color: var(--accent1);
+  /* color: rgba(7, 55, 99, 1); */
+  font-size: big;
+}
+#Desc {
+  color: var(--text-color);
+}
+
+#list {
+  color: var(--text-color);
+}
+
+#entry {
+  background-color: rgba(43, 49, 50, 0.4);
+  color: var(--text-color);
+  margin-left: 16px;
+}
