@@ -10,12 +10,19 @@
 
 body {
   background-color: var(--main-bg-color);
+  /* background-image: url("./imgs/image_82669.png"); */
+  /* background-repeat: no-repeat; */
+  font-family: Courier;
+  font-size: 12px; 
+  background-size: contain;
+  /* background-position: center center; */
   color: var(--text-color)
   overflow: hidden;
 }
 
 h1 {
   color: var(--accent1);
+  /* color: rgba(7, 55, 99, 1); */
   font-size: big;
 }
 #Desc {
@@ -27,6 +34,7 @@ h1 {
 }
 
 #entry {
+  /* background-color: rgba(43, 49, 50, 0.4); */
   color: var(--text-color);
   margin-left: 16px;
 }
