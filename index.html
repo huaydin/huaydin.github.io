@@ -1,61 +1,147 @@
 <!DOCTYPE html>
-<!--
-TODO List:
-- Put "enter" link centered on computer monitor. 9.17, the problem with this is that I have little understanding on how the background image is resized
-- Put a footnote at the bottom of all the pages that this is a site by me, Huay Din
-- The new page will be of a similar tone & use the same filter.
-- 1. put the link to the boid page.
-- 2. put the link to the tonnetz page
-- 3. put an about section
-- 4. put an essays section
-- 5. put a `library` section to hold my future collections of filters.
-
- -->
-
 
 <html lang="en">
 <head>
   <title>Huay's Site</title>
   <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="overallStyle.css">
-  <!-- <script src="terminusJS.js"></script> -->
+  <!-- <link rel="stylesheet" type="text/css" href="overallStyle.css"> -->
+  <style>
+
+    body {
+      background-color: black;
+      /* background-image: url("./imgs/computer.png"); */
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+      color: var(--text-color);
+      font-family: Courier;
+      margin: 0px;
+      padding: 0px;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      font-family: courier;
+    }
+
+    .container {
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+    }
+
+    #bg_img {
+      background-color: black;
+      padding-left: 15vw;
+      width: 70vw;
+      height: 100vh;
+      margin: auto;
+      /* display: flex; */
+      border-width: 10px;
+      align-items: center;
+      z-index: 0;
+      position: absolute;
+      /* position: static; */
+      /* position: absolute; */
+    }
+
+    #left_items {
+      color: white;
+      z-index: 1;
+      max-width: 15vw;
+      padding-left: 0.2vw;
+      position: absolute;
+      /* background-color: blue;  */
+    }
+
+    #left_items > p,a {
+      padding-left: 1vw;
+      font-size: 1vw;
+    }
+
+    #left_items > a {
+      color: white!;
+      padding: 0px;
+      margin: 0px;
+      z-index: 9999999;
+      position: inherit;
+    }
+
+    #last_up {
+      padding-left: 2vw;
+      margin-top: 80vh;
+      font-size: 0.75vw;
+    }
+
+    #right_items{
+      color: white;
+      z-index: 1;
+      max-width: 15vw;
+      padding-left: 85vw;
+      position: absolute;
+
+    }
+
+    #right_items >p {
+      font-size: 1vw;
+      padding-left: 1vw;
+    }
+  </style>
 </head>
 
 <body>
 
-  <div class="enter">
-    <center><a href="./link_list.html"><span>Huay's Site</span></a> </center>
+  <!-- ======================================================================================================= -->
+  <div class="container">
+    <div id="bg_img">
+      <img src="./imgs/computer.png" style="width:100%">
+    </div>
+<!-- ======================================================================================================= -->
+    <div id="right_items">
+      <!-- follwing two tabs are to align the right side with the left -->
+      <h2 style="font-size: 1.5vw">&nbsp;</h2>
+      <p style="font-size:1.5vw; padding-left: 0px">&nbsp;</p>
+      <p>Yo! I'm Huay and I'm trying to make it in life.<br>
+        My current interests are in mathematics, physics, medical imaging, information theory, music, writing and reading. <br>
+        <!-- As of December 9, 2022 4:39 PM, I am still a fourth year student at Case Western Reserve University studying mathematics and physics.  -->
+         My hope for this site is both to share projects and thoughts to family, friends, strangers, and develop myself as well (in a good way &#128522;).
+      </p>
+      <p style="font-size: 0.75vw">
+        <br><br><br>
+        Image source from COCO Dataset. Image processing details can be found here. <br>
+        >>> Site last updated: 12.9.2022
+      </p>
+      <!-- <p id="last_up"></p> -->
+    </div>
+
+  <!-- ======================================================================================================= -->
+  <!-- For the links to work, this div needs to be put at the end.  -->
+  <div id="left_items">
+    <h2 style="font-size: 1.5vw">>>>huay's site</h2>
+    <p style="font-size:1.5vw; padding-left: 0px">>>> ls</p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./" style="color: white;">ABOUT ME+</a><br>
+      &#60;DIR><a href="./" style="color: white;">WRITINGS</a><br>
+      &#60;DIR><a href="./" style="color: white;">PROJECTS</a><br>
+      &#60;DIR><a href="./" style="color: white;">TRANSLATIONS</a><br>
+      &#60;DIR><a href="./" style="color:white;">MUSIC & VIDEOS</a><br>
+      &#60;DIR><a href="./journal/journal.html" style="color: white;">THOUGHTS</a><br>
+      &#60;DIR><a href="./" style="color: white;">SOCIALS</a><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./" style="color: white;">CONTACTS</a><br>
+    </p>
+
   </div>
 
-<!-- <div class="header">
-  <h1>huay's mindpalace</h1>
-  <p id="hcaption">this is where I present expositions to an audience of myself</p>
-  <p id="hcaption">/// Under Construction!! ///</p>
-</div> -->
-
-<!-- I want to have moving ascii clouds. -->
-<!-- <div class="horl1"><hr></div> -->
-
-<div id="frame"></div>
+  <!-- ======================================================================================================= -->
 
 
-<div class="last-up">
-  <!-- <p>Last Updated: 8.13.2022</p> -->
+
+
+
+
+  <!-- ======================================================================================================= -->
+
+
 </div>
 
 </body>
-<!-- <footer>
-  <p> List of times: </p>
-  <ul>
-    <li id="time"> Numbers </li>
-    <li> Last Updated: </li>
-    <li> Last Happy: </li>
-    <li> Last Slept: </li>
-    <li> Last rolled the gacha: </li>
-  </ul>
-</footer> -->
-
-
-
-
 </html>
