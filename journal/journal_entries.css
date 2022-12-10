@@ -1,0 +1,18 @@
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Courier;
+  font-size: 12px;
+}
+
+h2 {
+  font-family: Courier;
+  font-size: 22px;
+  color: #D1C698;
+}
+
+#entry {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
