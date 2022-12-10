@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: courier;
+  font-size: 12px;
+}
+
+h2 {
+  font-family: Courier;
+  font-size: 22px;
+  color: #D1C698;
+}
+
+a {
+  color: white;
+}
+
+.container {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  /* position: absolute; */
+}
