@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <title>: Lu1, Cee</title>
+    <meta charset="utf-8"/>
+    <style>
+      body {
+      background-color: black;
+      color: white;
+      font-family: courier;
+      }
+      h2 {
+	  padding-left: 2vw;
+      }
+      p {
+	  padding-left: 2vw;
+	  font-size: 12px;
+      }
+      h3 {
+	  padding-left: 3vw;
+      }
+      a {
+	  color: white;
+      }
+
+      #container {
+	  content: ""; // Directly related to the float property, defines whether an element should be next to floating elemnts, or it should be below. 
+	  display: table;
+	  clear: both; 
+      }
+
+      div {
+	  float: left;
+	  height: 470px;
+	  width: 23%;
+	  padding: 0 10px; 
+      }
+
+      #col1 {
+	  background-color: yellow;
+      }
+
+      #col2 {
+	  background-color: white;
+	  width: 43%;
+      }
+    </style> 
+  </head>
+<body>
+  <main id="container">
+    <div id="col1">
+      This is where the chinese will go. 
+
+    </div>
+    <div id="col2">
+
+      This is where the english will go. 
+    </div>
+    
+
+  </main> 
+</body>
+</html> 

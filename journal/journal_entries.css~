@@ -16,8 +16,3 @@ h2 {
   padding-left: 2vw;
   padding-right: 2vw;
 }
-
-#hl {
-    background-color:#272B2F;
-}
-
