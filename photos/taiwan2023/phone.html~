@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- TODO: after ::: text should be in that column. maybe implement grid here.  -->
+  <title>Photos</title>
+  <meta charset="utf-8"/>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: courier;
+    }
+    h2 {
+      padding-left: 2vw;
+    }
+    p {
+      padding-left: 2vw;
+      font-size: 12px;
+    }
+    h3 {
+      padding-left: 3vw;
+    }
+
+    a {
+      color: white;
+    }
+  </style>
+
+</head>
+<body>
+
+</body>
+</html>

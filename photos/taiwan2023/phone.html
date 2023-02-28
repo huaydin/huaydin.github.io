@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- TODO: after ::: text should be in that column. maybe implement grid here.  -->
+  <title>Photos</title>
+  <meta charset="utf-8"/>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: courier;
+      margin-left: 15vw;
+      margin-right: 15vw; 
+    }
+    h2 {
+      padding-left: 2vw;
+    }
+    p {
+      padding-left: 2vw;
+      font-size: 12px;
+    }
+    h3 {
+      padding-left: 3vw;
+    }
+
+    a {
+      color: white;
+    }
+
+    .contain {
+	object-fit: contain
+    }
+
+    #flex-gallery2 {
+	display: flex;
+	flex-wrap: wrap;
+    }
+
+    #flex-gallery2 img,p {
+	width: 50%; /* 2 items per row, 100% / 2 = 50% */
+	height: auto;
+    }
+    
+  </style>
+
+</head>
+<body>
+  <div id="flex-gallery2">
+    <img src="./phone/jiufen1.jpg" alt="Jiufen 九份 Staircase"/>
+    <p>This image was taken at Jiufen 九份. Even though the weather was cold and rainy, the trip was still a nice experience. The fog gave the small town a detached from the rest of the world kind-of-feeling.
+  </div>
+  
+</body>
+</html>
