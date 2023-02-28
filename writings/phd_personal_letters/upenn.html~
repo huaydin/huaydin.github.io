@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: courier;
+      font-size: 12px;
+    }
+    .container {
+
+    }
+    #the-canvas {
+      margin: auto;
+      max-width: 70vw;
+      padding-left: 30vw;
+      max-height: 100vh;
+      border: 1px solid black;
+      direction: ltr;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div style="font-family:Courier; color: white; font-size: 10px; padding-left: 5px; padding-bottom: 10px; padding-top: 10px;">
+      (pwd) > <a href="../" style="color: white;">home</a>:\<a href="./about_me.html" style="color: white;">about_me</a>\cv
+    </div>
+<h1><center>Huay's CV</center></h1>
+
+<div><center>
+  <button id="prev">Previous</button>
+  <button id="next">Next</button>
+  &nbsp; &nbsp;
+  <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+  </center>
+</div>
+
+<canvas id="the-canvas"></canvas>
+</div>
+
+<!-- Canvas has to initialize first.  -->
+<script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+<script src="./phd_personal_letters/mayo.js"></script>
+
+</body>
+</html>
